@@ -1,0 +1,78 @@
+
+hp@ADMINISTRATOR MINGW64 ~ (master)
+$ cd Desktop/
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop (master)
+$ mkdir qqq
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop (master)
+$ cd qqq
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ mkdir aaaa
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ cd aaaa
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq/aaaa (master)
+$ echo aaabbbcccdddeee > index10.txt
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq/aaaa (master)
+$ cd ..
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git init
+Initialized empty Git repository in C:/Users/hp/Desktop/qqq/.git/
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        aaaa/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git add .
+warning: LF will be replaced by CRLF in aaaa/index10.txt.
+The file will have its original line endings in your working directory
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git commit -m "prob"
+[master (root-commit) 5f37a26] prob
+ 1 file changed, 1 insertion(+)
+ create mode 100644 aaaa/index10.txt
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git branch -M master
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git remote add origin https://github.com/al1yew/vasif12345.git
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 263 bytes | 263.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/al1yew/vasif12345/pull/new/master
+remote:
+To https://github.com/al1yew/vasif12345.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+hp@ADMINISTRATOR MINGW64 ~/Desktop/qqq (master)
+$
+
+
+tut ya ponal shto posledovatelnost ochen vajna
+ochen vajna chetkost
+mojno ispolzovat i raznie papki, glavnoe ne putat branchi, a to ne dobavlayetsa
+vse komandi v bloknote est
+sverhu eshe odin kod uje sozdaniya dla gotovogo Repo eshe odnogo commita
