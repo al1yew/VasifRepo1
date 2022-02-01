@@ -1,1 +1,2 @@
 - index 2 moy kod
+- zapisi v bloknote
